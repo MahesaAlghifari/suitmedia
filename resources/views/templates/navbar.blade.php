@@ -9,23 +9,23 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Work</a>
+                <li class="nav-item mx-2">
+                    <a class="nav-link {{$title === 'work' ? 'text-white border-bottom' : 'text-light' }}" aria-current="page" href="/work">Work</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">About</a>
+                <li class="nav-item mx-2">
+                    <a class="nav-link {{$title === 'about' ? 'text-white border-bottom' : 'text-light' }}" aria-current="page" href="/about">About</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Services</a>
+                <li class="nav-item mx-2">
+                    <a class="nav-link {{$title === 'services' ? 'text-white border-bottom' : 'text-light' }}" aria-current="page" href="/services">Services</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Ideas</a>
+                <li class="nav-item mx-2">
+                    <a class="nav-link {{$title === 'ideas' ? 'text-white border-bottom' : 'text-light' }}" aria-current="page" href="/ideas">Ideas</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Careers</a>
+                <li class="nav-item mx-2">
+                    <a class="nav-link {{$title === 'careers' ? 'text-white border-bottom' : 'text-light' }}" aria-current="page" href="/careers">Careers</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Contact</a>
+                <li class="nav-item mx-2">
+                    <a class="nav-link {{$title === 'contact' ? 'text-white border-bottom' : 'text-light' }}" aria-current="page" href="/contact">Contact</a>
                 </li>
             </ul>
         </div>
