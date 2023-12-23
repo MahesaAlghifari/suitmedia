@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+}
+
+/* CSS Navbar */
+.navbar {
+    background-color: rgba(255, 102, 0, .9);
+    transition: background-color 0.5s ease;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar.hidden {
+    background-color: rgba(255, 102, 0, 0);
+    /* Warna latar belakang transparan saat scroll ke bawah */
+    top: -100px;
+}
+
+.nav-link {
+    margin-left: 20px;
+    color: white;
+}
+
+/* CSS Banner */
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.abstract-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.churchofpresentation.org/wp-content/uploads/2020/12/abstract-blur-blue-bokeh-banner-background-5VWG5L8-scaled.jpg');
+    background-size: cover;
+    transform: skewY(-3deg);
+    transform-origin: top left;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.banner-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.banner-text p {
+    font-size: 1.2em;
+}
+
+/* Hover efek untuk Navbar Link */
+.navbar-nav .nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.card-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+
+}
